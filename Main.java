@@ -8,6 +8,27 @@ public class Main {
         String surname = "";
         int age = 0;
 		String uni = "";
+        String username = "";
+        int pin = 7923;
+        int entry;
+
+        System.out.print("Username: ");
+        username = scanner.nextLine();
+
+        while(true) {
+
+            System.out.println("PIN: ");
+            entry = scanner.nextInt();
+            scanner.nextLine();
+
+            if(entry == pin) {
+                System.out.println("Access Granted.");
+                break;
+            } else {
+                System.out.println("Access denied");
+            }
+
+        }
         
         System.out.println("Hello World");
 
