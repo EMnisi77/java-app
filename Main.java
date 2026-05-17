@@ -6,6 +6,7 @@ public class Main {
 
         String name = "";
         String surname = "";
+        int age = 0;
         
         System.out.println("Hello World");
 
@@ -15,7 +16,12 @@ public class Main {
         System.out.print("Enter surname: ");
         surname = scanner.nextLine();
 
+        System.out.print("Enter age: ");
+        age = scanner.nextInt();
+
+
         System.out.println("Hello " + name + " " + surname);
+        System.out.println("Age " + age);
 
         scanner.close();
     }
