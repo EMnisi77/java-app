@@ -7,6 +7,7 @@ public class Main {
         String name = "";
         String surname = "";
         int age = 0;
+		String uni = "";
         
         System.out.println("Hello World");
 
@@ -18,7 +19,9 @@ public class Main {
 
         System.out.print("Enter age: ");
         age = scanner.nextInt();
-
+		
+		System.out.println("University: ");
+		uni = scanner.nextLine();
 
         System.out.println("Hello " + name + " " + surname);
         System.out.println("Age " + age);
